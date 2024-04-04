@@ -1,0 +1,40 @@
+/* CSS pour le bouton de menu hamburger */
+.burger-menu {
+    display: block;
+    cursor: pointer;
+    height: fit-content;
+    margin-top: 4px;
+    margin-left: 10px;
+}
+
+.bar {
+    width: 30px;
+    height: 3px;
+    background-color: #fff;
+    margin: 6px 0;
+    transition: 0.4s;
+}
+
+/* Styles pour animer le bouton hamburger lorsque le menu est ouvert */
+.burger-menu.open .bar:nth-child(1) {
+    transform: rotate(-45deg) translate(-9px, 6px);
+}
+
+.burger-menu.open .bar:nth-child(2) {
+    opacity: 0;
+}
+
+.burger-menu.open .bar:nth-child(3) {
+    transform: rotate(45deg) translate(-8px, -8px);
+}
+
+/* CSS pour cacher le menu */
+.menu {
+    display: none;
+}
+
+/* CSS pour afficher le menu lorsque le burger menu est ouvert */
+.burger-menu.open + .menu {
+    display: block;
+}
+

@@ -1,0 +1,50 @@
+/* Reset CSS */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Body styles */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f8f9fa;
+    color: #333;
+    line-height: 1.6;
+    margin: 0;
+    padding: 0;
+}
+
+h1 {text-align: center;
+    margin-top: 1.7vw;
+    margin-bottom: 1.7vw;}
+
+/* Container */
+.container {
+    width: 80%;
+    margin: auto;
+    overflow: hidden;
+    margin-bottom: 9vw;
+}
+
+/* Article styles */
+.article {
+    background: #fff;
+    padding: 20px;
+    margin-bottom: 20px;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0,0,0,0.1);
+}
+
+.article h2 {
+    font-size: 24px;
+    margin-bottom: 10px;
+}
+
+.article p {
+    margin-bottom: 10px;
+}
+
+.article strong {
+    font-weight: bold;
+}
